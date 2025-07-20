@@ -19,7 +19,7 @@ const Contact = () => {
             email: email,
             message: message
         }
-        const response = await fetch('http://localhost:3000/api/email', {
+        const response = await fetch('https://nextjs-neel-portfolio2.vercel.app/api/email', {
             method: 'POST',
             body: JSON.stringify(payload),
         })
